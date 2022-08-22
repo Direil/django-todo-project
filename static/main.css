@@ -1,0 +1,124 @@
+svg.delete {
+    position: absolute;
+    top: 4px;
+    right: 2px
+}
+
+svg.delete:hover {
+    opacity: 1;
+    color: rgb(143, 6, 6);
+}
+
+#add-task {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+a.update {
+    text-decoration: none;
+    color: inherit;
+    position: absolute;
+    top: 5px;
+    right: 33px;
+}
+
+small {
+    font-size: 11px;
+}
+
+a.update:hover {
+    color: rgb(12, 12, 129)
+}
+
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    float: right;
+
+}
+
+input::placeholder {
+    color: #d3d3d3;
+}
+
+.submit {
+    background-color: #365274;
+}
+
+.search-submit {
+    color: rgb(255, 253, 253);
+}
+
+.search-submit:hover {
+    color: rgb(129, 129, 129);
+}
+
+.page-container {
+    padding: 2px;
+}
+
+.page-container>a {
+    margin: 2px;
+}
+
+.center-column {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 6px 2px 30px 0px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-name {
+    margin-right: auto;
+    margin-left: 1em;
+}
+
+.navbar-black {
+    background-color: #3e3e4b;
+}
+
+.item-row {
+    background-color: #3e3e4b;
+    margin: 10px;
+    padding: 38px 20px 15px 20px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0px -1px 10px -4px rgba(0, 0, 0, 0.5);
+    overflow-wrap: break-word;
+    position: relative;
+    border-radius: 15px;
+}
+
+#show-form:hover{
+    opacity: 1;
+    color:#a1a3a5
+}
+#text {
+    margin-right: -5px;
+}
+
+#date-form > .date-label:nth-of-type(2){
+    margin-left: 20px;
+}
+
+#date-form{
+    display: none; 
+    margin-bottom: 10px;    
+    margin-top: 10px;
+    text-align: center;
+}
+
+#date-form > input.date{
+    width: 20%;
+}
